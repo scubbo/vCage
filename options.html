@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head><title>vCage Options Page</title></head>
+<head>
+<title>vCage Options Page</title>
+<style>
+    .labelSpan {
+        display:inline-block;
+        width:66px;
+        height:21px;
+    }
+</style>
+</head>
 <body>
 
 Probabilities:<br/><br/>
 <label>
-  Crazy
+  <span class="labelSpan">Crazy</span>
   <input type="number" id="crazyProb" min="0" max="100">
 </label><br/>
 
 <label>
-  "Normal"
+  <span class="labelSpan">"Normal"</span>
   <input type="number" id="normalProb" min="0" max="100">
 </label><br/>
 
 <label>
-  Grayscale
+  <span class="labelSpan">Grayscale</span>
   <input type="number" id="grayProb" min="0" max="100">
 </label><br/>
 
 <label>
-  .gif
+  <span class="labelSpan">.gif</span>
   <input type="number" id="gifProb" min="0" max="100">
 </label><br/><br/>
 
